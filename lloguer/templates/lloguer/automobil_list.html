@@ -1,0 +1,17 @@
+<!-- templates/vehicles/automobil_list.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Automóviles</title>
+</head>
+<body>
+    <h1>Lista de Automóviles</h1>
+    <ul>
+        {% for automobil in automobils %}
+            <li>{{ automobil }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
